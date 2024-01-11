@@ -1,0 +1,18 @@
+p {
+    color:blue;
+    margin: 0 auto;
+}
+h1 {
+    margin: 0 auto;
+    width: 400px;
+    padding: 30px;
+    color: red;
+}
+
+#main {
+    color: red;
+}
+
+.A {
+    color: green;
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Hello World.</h1>
+
+    <p id = 'main'>My name is Nicolai</p>
+    <p>Today is a good day</p>
+    <p class = 'A'> I will get an A in DS4200</p>
+    <button id = 'navigateButton'> go to next</button>
+
+    <script>
+        const navigateButton = document.getElementById("navigateButton")
+
+        navigateButton.addEventListener('click', function(){
+            window.location.href = 'chart.html';
+        })
+    </script>
+</body>
+</html>
