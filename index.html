@@ -5,20 +5,38 @@
     <title>My Website</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <h1>Hello World.</h1>
+<body style="background-color: #191A1B">
+    <div style="text-align: center;">
+    <h1>Nicolai Jacobsen</h1>
+    </div>
+    <div class="main-container">
+        <img id="rotating-image" src="images/photo1.jpg" class="responsive-image">
+        <h2>My Bio</h2>
+        <p class = 'A'>
+            My name is Nicolai, I am a 3rd year at Northeastern University. My major is Data Science &
+            Business Administration with a concentration in Fintech. My hometown is Oslo, Norway. I lived there for
+            16 years, before I moved to Hong Kong for 3 years. My interests include competitive sailing, skiing, and
+            traveling.</p>
+        <h2>Website Plan</h2>
+        <div class="bullet-points">
+            <ul>
+                <li>Include list and links for my academic projects</li>
+                <li>Include links to social profiles for networking</li>
+                <li>Add more information about my interests and hobbies</li>
+            </ul>
+        </div>
 
-    <p id = 'main'>My name is Nicolai</p>
-    <p>Today is a good day</p>
-    <p class = 'A'> I will get an A in DS4200</p>
-    <button id = 'navigateButton'> go to next</button>
+        <button id = 'notifierButton' class="button">Show Notification</button>
+    </div>
 
-    <script>
-        const navigateButton = document.getElementById("navigateButton")
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <span id="close-popup-btn" class="close-button">&times;</span>
+            <p class="popup-text">Stay tuned for updates!</p>
+        </div>
 
-        navigateButton.addEventListener('click', function(){
-            window.location.href = 'chart.html';
-        })
-    </script>
+    </div>
+
+    <script src="main.js"></script>
 </body>
 </html>

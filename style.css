@@ -1,18 +1,113 @@
 p {
-    color:blue;
+    color: whitesmoke;
     margin: 0 auto;
+    font-family: sans-serif;
 }
 h1 {
     margin: 0 auto;
+    margin-top: 40px;
     width: 400px;
-    padding: 30px;
-    color: red;
+    padding: 20px;
+    color: whitesmoke;
+    font-family: sans-serif;
 }
 
-#main {
-    color: red;
+ul {
+    color: whitesmoke;
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+
+h2 {
+    font-family: sans-serif;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: whitesmoke;
 }
 
 .A {
-    color: green;
+    margin-top: 20px;
+    width: 60%;
+    margin: 0 auto;
+    text-align: left
+}
+
+.main-container {
+    background-color: #182529;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.responsive-image {
+    width: 50%;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+    margin-top: 50px;
+}
+
+.bullet-points {
+    width: 40%;
+    text-align: left;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.button {
+    font-family: sans-serif;
+    background-color: #004F51;
+    color: #6FF6F9;
+    padding: 5px 10px 5px 10px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    cursor: pointer;
+    border: none;
+}
+
+.button:hover {
+    background-color: dodgerblue;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    max-width: 600px;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    padding: 20px;
+    background-color: #191A1B;
+    border-radius: 10px;
+}
+
+.popup-content {
+    margin: 15% auto;
+    padding: 20px;
+    width: 80%;
+}
+
+.close-button {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    right: 20px;
+    top: 10px;
+    position: absolute;
+    font-size: 30px;
+}
+
+.popup-text {
+    text-align: center;
+    font-size: 30px
 }
