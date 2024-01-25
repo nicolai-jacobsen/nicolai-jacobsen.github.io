@@ -12,7 +12,7 @@ closeButton.addEventListener('click', function(){
 
 document.addEventListener("DOMContentLoaded", function() {
     var images = [
-        'images/photo1.jpg',
+        'images/photo1.JPG',
         'images/photo2.jpg',
     ];
 
